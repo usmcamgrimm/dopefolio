@@ -701,4 +701,43 @@ textarea {
 @-webkit-keyframes wheel {
   to {
     opacity: 0;
-    top: 27px; } }
+    top: 27px; 
+  } 
+}
+
+/* Copy these over to SCSS? */
+.heading-primary-havamal {
+  color: #ffcd00;
+  font-size: 6rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  @include respond(phone) {
+    font-size: 4.5rem;
+  }
+}
+.project-cs-hero {
+  color: #fff;
+  background: linear-gradient(
+      to right,
+      rgba(0, 82, 147, 0.9),
+      rgba(0, 82, 147, 0.9)
+    ),
+    url(../../assets/svg/common-bg.svg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+  @include respond(phone) {
+    height: unset;
+    min-height: unset;
+  }
+}
+
+/* btn--theme-havamal {
+  background: rgb(0, 82, 147);
+  color: rgb(254, 203, 0);
+}
+btn--theme-inv-havamal {
+  border: rgb(0, 82, 147);
+} */
