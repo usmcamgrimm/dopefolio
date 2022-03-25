@@ -1,5 +1,5 @@
 .main-footer {
-  background: #000;
+  background: rgba(29, 37, 44, 1.0);
   color: #fff;
   &__upper {
     display: flex;
@@ -49,8 +49,8 @@
 
   &__lower {
     padding: 4rem 0;
-    border-top: 1px solid #444;
-    color: #eee;
+    border-top: 1px solid #a5acaf;
+    color: #ffffff;
     font-size: 1.2rem;
     text-align: left;
     text-align: center;

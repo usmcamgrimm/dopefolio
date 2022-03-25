@@ -608,7 +608,7 @@ textarea {
     border-bottom: 0; }
 
 .main-footer {
-  background: #000;
+  background: #1d252c;
   color: #fff; }
   .main-footer__upper {
     display: flex;
@@ -646,8 +646,8 @@ textarea {
       margin-right: 0; }
   .main-footer__lower {
     padding: 4rem 0;
-    border-top: 1px solid #444;
-    color: #eee;
+    border-top: 1px solid #a5acaf;
+    color: #ffffff;
     font-size: 1.2rem;
     text-align: left;
     text-align: center; }
