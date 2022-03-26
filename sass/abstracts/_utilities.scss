@@ -129,10 +129,19 @@
   }
   &--theme-inv-havamal {
     color: rgb(0, 82, 147);
-    background: rgb(254, 203, 0);
+    background: #ffffff;
     border: 2px solid rgb(0, 82, 147);
     box-shadow: none;
     padding: calc(1.5rem - 2px) calc(5rem - 2px);
+  }
+  &--theme-havamal:hover {
+    color: rgb(0, 82, 147);
+    background: #ffffff;
+    border: 2px solid rgb(0, 82, 147);
+  }
+  &--theme-inv-havamal:hover {
+    background: rgb(0, 82, 147);
+    color: rgb(254, 203, 0);
   }
 }
 
@@ -159,7 +168,7 @@
   display: none;
 }
 
-/* Havamal Section Styles
+/* Havamal Section Styles */
 .heading-primary-havamal {
   color: #ffcd00;
   font-size: 6rem;
