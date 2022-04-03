@@ -103,7 +103,7 @@ textarea {
     top: calc(100% + 1.5rem);
     height: 5px;
     width: 3rem;
-    background: #013369;
+    background: #a30303;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 5px; }
@@ -137,8 +137,8 @@ textarea {
   width: 92%; }
 
 .btn {
-  background: #ffffff;
-  color: #10252c;
+  background: #dddddd;
+  color: #000000;
   text-transform: uppercase;
   letter-spacing: 2px;
   display: inline-block;
@@ -155,12 +155,12 @@ textarea {
     padding: 1.5rem 5rem;
     font-size: 1.6rem; }
   .btn--theme {
-    background: #013369;
+    background: #a30303;
     color: #ffffff; }
   .btn--theme-inv {
-    color: #013369;
+    color: #a30303;
     background: #ffffff;
-    border: 2px solid #013369;
+    border: 2px solid #a30303;
     box-shadow: none;
     padding: calc(1.5rem - 2px) calc(5rem - 2px); }
   .btn--theme-havamal {
@@ -212,7 +212,7 @@ textarea {
 
 .home-hero {
   color: #fff;
-  background: linear-gradient(to right, rgba(1, 51, 105, 0.8), rgba(1, 51, 105, 0.8)), url(../../assets/svg/common-bg.svg);
+  background: linear-gradient(to right, rgba(163, 3, 3, 0.8), rgba(163, 3, 3, 0.8)), url(../../assets/svg/common-bg.svg);
   background-position: center;
   height: 100vh;
   min-height: 80rem;
@@ -248,7 +248,7 @@ textarea {
     border-bottom: 2px solid #eee;
     transition: background .3s; }
     .home-hero__social-icon-link:hover {
-      background: rgba(1, 51, 105, 0.5);}
+      background: rgba(255, 255, 255, 0.1); }
     .home-hero__social-icon-link--bd-none {
       border-bottom: 0; }
   .home-hero__social-icon {
@@ -350,7 +350,7 @@ textarea {
           font-size: 1.7rem; } }
 
 .contact {
-  background: linear-gradient(to right, rgba(1, 51, 105, 0.8), rgba(1, 51, 105, 0.8)), url(../../assets/svg/common-bg.svg);
+  background: linear-gradient(to right, rgba(163, 3, 3, 0.8), rgba(163, 3, 3, 0.8)), url(../../assets/svg/common-bg.svg);
   background-size: cover;
   background-position: center; }
   .contact__form-container {
@@ -431,7 +431,7 @@ textarea {
 
 .project-cs-hero {
   color: #fff;
-  background: linear-gradient(to right, rgba(1, 51, 105, 0.8), rgba(1, 51, 105, 0.8)), url(../../assets/svg/common-bg.svg);
+  background: linear-gradient(to right, rgba(163, 3, 3, 0.8), rgba(163, 3, 3, 0.8)), url(../../assets/svg/common-bg.svg);
   background-size: cover;
   background-position: center;
   position: relative; }
@@ -521,7 +521,7 @@ textarea {
           margin: 0; } }
 
 /* Havamal Project Styling */
-.project-cs-hero-havamal {
+.project-cs-hero {
   color: #fff;
   background: linear-gradient(to right, rgba(0, 75, 135, 0.8), rgba(0, 75, 135, 0.8)), url(../../assets/svg/common-bg.svg);
   background-size: cover;
@@ -554,14 +554,14 @@ textarea {
     color: #333;
     transition: color .3s; }
     .header__logo-container:hover {
-      color: #013369; }
+      color: #a30303; }
   .header__logo-img-cont {
     width: 5rem;
     height: 5rem;
     border-radius: 50px;
     overflow: hidden;
     margin-right: 1.5rem;
-    background: #013369; }
+    background: #a30303; }
     @media only screen and (max-width: 56.25em) {
       .header__logo-img-cont {
         width: 4.5rem;
@@ -593,7 +593,7 @@ textarea {
     font-weight: 700;
     transition: color .3s; }
     .header__link:hover {
-      color: #013369; }
+      color: #a30303; }
     @media only screen and (max-width: 56.25em) {
       .header__link {
         padding: 3rem 1.8rem;
@@ -640,7 +640,7 @@ textarea {
     letter-spacing: 2px;
     transition: color .3s; }
     .header__sm-menu-link a:hover {
-      color: #013369; }
+      color: #a30303; }
   .header__sm-menu-link:first-child a {
     border-top: 1px solid #eee; }
   .header__sm-menu-link-last {
